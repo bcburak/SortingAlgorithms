@@ -1,0 +1,62 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 3 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+BuildScript: C:\Users\Burak.Celik\source\repos\SortingAlgorithms.Assignment\SortingAlgorithms.Assignment\bin\Release\47a1ec80-f72e-4aaf-bd8c-8256222fbd9b.bat
+// ***** Done, took 00:00:02 (2.91 sec)   *****
+// Found 3 benchmarks:
+//   SortingManager.InsertionSort: DefaultJob [arr=Object[2]]
+//   SortingManager.InsertionSort: DefaultJob [arr=Object[2]]
+//   SortingManager.InsertionSort: DefaultJob [arr=Object[2]]
+
+// Build Error: The build has failed!
+CS0030: Cannot convert type 'object[]' to 'int[]'
+CS0030: Cannot convert type 'object[]' to 'int[]'
+CS0030: Cannot convert type 'object[]' to 'int[]'
+
+
+// BenchmarkDotNet has failed to build the auto-generated boilerplate code.
+// It can be found in C:\Users\Burak.Celik\source\repos\SortingAlgorithms.Assignment\SortingAlgorithms.Assignment\bin\Release
+// Please follow the troubleshooting guide: https://benchmarkdotnet.org/articles/guides/troubleshooting.html
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\SortingAlgorithms.Assignment.SortingManager-report.csv
+  BenchmarkDotNet.Artifacts\results\SortingAlgorithms.Assignment.SortingManager-report-github.md
+  BenchmarkDotNet.Artifacts\results\SortingAlgorithms.Assignment.SortingManager-report.html
+
+// * Detailed results *
+SortingManager.InsertionSort: DefaultJob [arr=Object[2]]
+Runtime = ; GC = 
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19041.685 (2004/May2020Update/20H1)
+Intel Core i7-8665U CPU 1.90GHz (Coffee Lake), 1 CPU, 8 logical and 4 physical cores
+  [Host] : .NET Framework 4.8 (4.8.4300.0), X86 LegacyJIT
+
+
+|        Method |       arr | Mean | Error | Rank |
+|-------------- |---------- |-----:|------:|-----:|
+| InsertionSort | Object[2] |   NA |    NA |    ? |
+
+Benchmarks with issues:
+  SortingManager.InsertionSort: DefaultJob [arr=Object[2]]
+
+// * Legends *
+  arr   : Value of the 'arr' parameter
+  Mean  : Arithmetic mean of all measurements
+  Error : Half of 99.9% confidence interval
+  Rank  : Relative position of current benchmark mean among all benchmarks (Arabic style)
+  1 ns  : 1 Nanosecond (0.000000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:01 (1.42 sec), executed benchmarks: 0
+
+Global total time: 00:00:04 (4.35 sec), executed benchmarks: 0
+// * Artifacts cleanup *
